@@ -1,0 +1,159 @@
+/* General Styles _______________________________ */
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* The GRID!   */
+
+body {
+    background-color: #BEBCAD;
+    position: relative;
+}
+
+h1 {
+    padding-left: 15px;
+    line-height: 30px;
+    background: repeating-linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.1) 2px, 
+    rgba(0, 0, 0, 0.1) 4px
+    );
+}
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.column-container{
+    display: table;
+}
+
+.left-column{
+    width: 70%;
+    background-color: #E9E9E7;
+}
+
+.right-column{
+    width: 30%;
+    background-color: #998A67;
+    position: relative;
+}
+
+.column {
+    display: table-cell;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: dotted 1px black;
+    margin: 10px 0 0 8px;
+}
+
+h3 {
+    margin-left: 1.5em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: #574D33;
+    font-size: 14px;
+}
+
+.left-article p {
+    margin: 1em 1.5em 1em 2.5em;
+    color: #786A47;
+    text-align: justify;
+}
+
+/* Images__________________________________________ */
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* right column --------------------- */
+
+.right-column li a {
+    font-weight: bold;
+    color: #E5D9BC;
+    list-style-position: inside;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.right-column li a:hover {
+    color: #7ECDFF;
+}
+
+/* Custom -------------------------- */
+
+.shadow {
+    box-shadow: 0 0 10px #999999;
+}
+
+.right-column li a.designer-name {
+    font-weight: normal;
+    color: #595339;
+    list-style: none;
+    display: inline;
+}
+
+.right-column li a.designer-name:hover {
+    color: #7ECDFF;
+}
+
+.float-left {
+    margin-left: 1.5em;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.float-right {
+    text-align: right;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+
+#summary p {
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    text-align: right;
+}
+
+#authors {
+    margin-top: 3em;
+    text-align: center;
+    padding-bottom: 100px;
+    background-image: url(https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bottom-nav {
+    text-align: center;
+    background-color: #7ECDFF;
+}
+
+.right-bottom-img {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#title {
+    font-size: 25px;
+    color: #D8D6C7;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    left: 20px;
+    top: 260px;
+}
